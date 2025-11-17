@@ -1,5 +1,5 @@
-// Compile: gcc -O2 Image_compress_client.c -o client -pthread -ljpeg
-// Usage:   ./server <IP_address>(127.0.0.1) <port>(19292)
+// Compile: gcc -O2 Image_compress_client.c -o client 
+// Run:   ./server <IP_address>(127.0.0.1) <port>(19292)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -124,4 +124,5 @@ int main(int argc,char **argv){
 
     close(sock);
     return 0;
+
 }
